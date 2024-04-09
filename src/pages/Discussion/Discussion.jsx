@@ -4,7 +4,7 @@ import Chat from "./Chat";
 import "./Discussion.scss";
 import { UserContext } from "../../context/userContext";
 
-const socket = io.connect("http://localhost:3500/");
+const socket = io.connect("https://social-space-gur6.onrender.com");
 
 const Discussion = () => {
   const [username, setUsername] = useState("");

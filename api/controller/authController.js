@@ -22,9 +22,9 @@ const authUser = async (req, res) => {
       return res
         .status(200)
         .cookie("token", accessToken, {
-          // sameSite: "none",
+          sameSite: "none",
           httpOnly: true,
-          // secure: "false",
+          secure: true,
         })
         .json({
           id: result._id,
