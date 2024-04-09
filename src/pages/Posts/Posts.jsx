@@ -6,7 +6,7 @@ import { PostCard } from "../../components";
 
 const Posts = () => {
   const [post, setPost] = useState([]);
-  const [uri, setUri] = useState("http://localhost:3500/");
+  const [uri, setUri] = useState("https://social-space-gur6.onrender.com/");
 
   useEffect(() => {
     const fetchData = async () => {

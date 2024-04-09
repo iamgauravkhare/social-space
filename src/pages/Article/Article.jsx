@@ -103,7 +103,7 @@ const Article = () => {
           </div>
         )}
         <div className="app__article-img">
-          <img src={`http://localhost:3500/${data.cover}`} alt="photo" />
+          <img src={`https://social-space-gur6.onrender.com/${data.cover}`} alt="photo" />
         </div>
         <div className="app__article-text">
           <div dangerouslySetInnerHTML={{ __html: data.content }} />

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import "./PostCard.scss";
 
 const PostCard = ({ item, uri }) => {
-  console.log(item.cover.split("\\").join("/"));
+  // console.log(item.cover.split("\\").join("/"));
   return (
     <Link className="app__posts-link" to={`/article/${item._id}`}>
       <div className="app__posts-container">
